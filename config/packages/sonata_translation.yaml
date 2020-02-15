@@ -1,0 +1,14 @@
+sonata_block:
+    blocks:
+        sonata_translation.block.locale_switcher: ~
+
+sonata_translation:
+    locale_switcher: true
+    locales: ['en', 'pl', 'uk']
+    default_locale: 'en'
+    gedmo:
+        enabled: true
+    knplabs:
+        enabled: true
+    #phpcr:
+    #    enabled: true
